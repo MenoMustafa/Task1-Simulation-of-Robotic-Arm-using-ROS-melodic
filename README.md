@@ -70,4 +70,4 @@ sudo apt-get install ros-melodic-ros-controllers ros-melodic-ros-control</code><
 <p> Run the following command to control the robotic arm using Rviz:</p>
 <div class="snippet-clipboard-content position-relative" data-snippet-clipboard-copy-content="  Number of colours/ shades = 2^bpp where bpp represents bits per pixel.
 "><pre><code>roslaunch robot_arm_pkg check_motors.launch</code></pre></div>
-<img src="/Images/robot_arm.png" width="501" height="350">
+<img src="/Images/robot_arm.png" width="501" height="311">
