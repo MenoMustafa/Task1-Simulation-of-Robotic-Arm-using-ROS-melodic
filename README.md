@@ -1,7 +1,7 @@
 <h1>Simulation of Robotic Arm using ROS melodic</h1>
 
 
-<h2>Setup ROS Melodic Environment on Ubuntu </h2>
+<h2>Setup ROS Melodic Environment on Ubuntu.</h2>
 <p>To install robotic arm package, we need to set up the development environment of ROS melodic on</p> 
 <p>Ubuntu 18.04, which had installed on Windows 10 using VirtualBox.<p>
  <p> Set up the computer to accept software from packages.ros.org, we write this command:</p>
@@ -45,6 +45,7 @@ cd ~/catkin_ws/</code></pre></div>
 <p> To create directories in a catkin workspace, run:</p>
 <div class="snippet-clipboard-content position-relative" data-snippet-clipboard-copy-content="  Number of colours/ shades = 2^bpp where bpp represents bits per pixel.
 "><pre><code>catkin_make</code></pre></div>
+<h2>Install The Robotic Arm Package.</h2>
 <p> Change the directory to src. To enable making a copy of the targeted repository for the robotic arm, run:</p>
 <div class="snippet-clipboard-content position-relative" data-snippet-clipboard-copy-content="  Number of colours/ shades = 2^bpp where bpp represents bits per pixel.
 "><pre><code>cd ~/catkin_ws/src
