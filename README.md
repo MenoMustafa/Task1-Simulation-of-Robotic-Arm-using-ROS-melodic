@@ -19,7 +19,7 @@
 <p> To get the available packages:</p>
 <div class="snippet-clipboard-content position-relative" data-snippet-clipboard-copy-content="  Number of colours/ shades = 2^bpp where bpp represents bits per pixel.
 "><pre><code>apt search ros-melodic</code></pre></div>
-<p> </p>
+<p> ROS environment variables have automatically added to the bash session whenever the new shell is launched:</p>
 <div class="snippet-clipboard-content position-relative" data-snippet-clipboard-copy-content="  Number of colours/ shades = 2^bpp where bpp represents bits per pixel.
 "><pre><code>echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
 source ~/.bashrc </code></pre></div>
@@ -35,7 +35,7 @@ build-essential</code></pre></div>
 <div class="snippet-clipboard-content position-relative" data-snippet-clipboard-copy-content="  Number of colours/ shades = 2^bpp where bpp represents bits per pixel.
 "><pre><code>sudo rosdep init</code>
 rosdep update</pre></div>
-<p> </p>
+<p> To install and build catkin: </p>
 <div class="snippet-clipboard-content position-relative" data-snippet-clipboard-copy-content="  Number of colours/ shades = 2^bpp where bpp represents bits per pixel.
 "><pre><code>sudo apt-get install ros-melodic-catkin</code></pre></div>
 <p> To create a catkin workspace: </p>
@@ -60,13 +60,14 @@ rosdep install --from-paths src --ignore-src -r -y</code></pre></div>
 sudo apt-get install ros-melodic-joint-state-publisher ros-melodic-joint-state-publisher-gui
 sudo apt-get install ros-melodic-gazebo-ros-control joint-state-publisher
 sudo apt-get install ros-melodic-ros-controllers ros-melodic-ros-control</code></pre></div>
-<p> </p>
+<p> To run the commands that we want to run every time we open a shell:</p>
 <div class="snippet-clipboard-content position-relative" data-snippet-clipboard-copy-content="  Number of colours/ shades = 2^bpp where bpp represents bits per pixel.
 "><pre><code>sudo nano ~/.bashrc
 (source /home/meno21/catkin_ws/devel/setup.bash)</code></pre></div>
-<p> </p>
+<p> To update bashrc file, run: </p>
 <div class="snippet-clipboard-content position-relative" data-snippet-clipboard-copy-content="  Number of colours/ shades = 2^bpp where bpp represents bits per pixel.
 "><pre><code>source ~/.bashrc</code></pre></div>
 <p> Run the following command to control the robotic arm using Rviz:</p>
 <div class="snippet-clipboard-content position-relative" data-snippet-clipboard-copy-content="  Number of colours/ shades = 2^bpp where bpp represents bits per pixel.
 "><pre><code>roslaunch robot_arm_pkg check_motors.launch</code></pre></div>
+<img src="/Images/robot_arm.png" width="350" height="350">
